@@ -17,7 +17,7 @@ h2{
   padding-bottom: 10px;
 
 }
-h3{
+h3, h4{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
 }
@@ -27,13 +27,13 @@ a{
 p{
   font-family: 'Montserrat', sans-serif;
   line-height: 2;}
-
+/*
 hr {
  border: dotted #EAF6F6 6px;
  border-bottom: none;
  width: 4%;
  margin: 100px auto;
-}
+} */
 
 a{
   color: #11999E;
@@ -44,7 +44,18 @@ a{
 a:hover{
   color: inherit;
 }
-
+.navbar-custom {
+    background-color: #be9fe1;
+    padding: 0 10%;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #ffffff;
+}
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #be9fe1 ;
+}
 .bottom-cloud{
   position: absolute;
   left: 250px;
@@ -55,47 +66,56 @@ a:hover{
   right: 300px;
   top:40px;
 }
-.top-container{
-  position: relative;
-  padding-top: 100px;
-  background-color: #be9fe1 ;
 
-}
+/* Middle Container Classes */
 .middle-container{
+  text-align: center;
   background-color: #e1ccec ;
   padding-top: 100px;
+  padding-bottom: 150px;
+}
+.profile{
+  margin:5%;
+}
+.intro{
+  width: 35%;
+  margin:auto;
+  font-size: 1.5rem;
+}
+
+/* Skills */
+.skills{
+  padding-top: 50px;
   padding-bottom: 100px;
 }
+.row{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.img-monitor{
+  width: 50%;
+}
+.align{
+  text-align: left;
+    line-height: 2;
+}
+
 .bottom-container{
   background-color: #f1f1f6 ;
-  height: 100px;
+  height: 150px;
   padding: 50px 0 20px;
+  margin-top: 50px;
 }
 .normal-font{
   font-weight: normal;
 }
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-  line-height: 2;
-}
 .img-window{
-  float: left;
   width: 30%;
-  margin-right: 30px;
 }
-.img-monitor{
-  float: right;
-  width: 30%;
-  margin-left: 30px;
-}
+
 .img-contact{
-  width: 20%;
-}
-.intro{
-  width: 30%;
-  margin: auto;
+  width: 15%;
+  margin:20px;
 }
 .contact-message{
   width: 40%;
